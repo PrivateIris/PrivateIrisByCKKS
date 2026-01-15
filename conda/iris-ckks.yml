@@ -1,0 +1,20 @@
+name: iris-ckks
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - nvidia::cuda=13.0.1
+  - blas-devel
+  - gcc=14.3.0
+  - gxx=14.3.0
+  - pre-commit>=3
+  - cmake=3.30.4
+  - gcovr=8.3
+  - gtest=1.11.0
+  - gmock=1.11.0
+  - benchmark=1.9.1
+  - pandas>=1.0
+  - tabulate
+  - doxygen
+  - graphviz
+  - zlib
