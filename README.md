@@ -19,7 +19,7 @@ conda activate iris-ckks
 ### 2. Build encrypted DB generator and run it
 Move to [db-generator](db-generator), create a build directory, and compile:
 ```
-mv db-generator
+cd db-generator
 mkdir build
 cd build
 cmake ..
@@ -31,12 +31,12 @@ Run the binary to generate random iris data and encrypted database.
 ./worldcoin-db-generation
 ```
 
-Check [db-generator/README.md](db-generator/README.md) for the details.
+<!-- Check [db-generator/README.md](db-generator/README.md) for the details. -->
 
 ### 3. Build private iris recogniction circuits and run them
 Move to [iris-ckks](iris-ckks), create a build directory, and compile:
 ```
-mv ../../iris-ckks
+cd ../../iris-ckks
 mkdir build
 cd build
 cmake ..
@@ -50,4 +50,4 @@ After compilation, you can run each component of the priviate iris circuit.
 ./postProcess
 ```
 
-Check [iris-ckks/README.md](iris-ckks/README.md) for the details of their outputs.
+<!-- Check [iris-ckks/README.md](iris-ckks/README.md) for the details of their outputs. -->
